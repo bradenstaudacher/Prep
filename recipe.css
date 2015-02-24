@@ -1,4 +1,4 @@
-p {
+p { /* paragraph attributes */
 	font-size: 18px;
 	padding-top: 10px;
     padding-right: 30px;
@@ -7,7 +7,7 @@ p {
 	/*text-align: left;*/
 }
 
-#information {
+#information { 
 	font-style: italic;
 	text-align: center;
 }
@@ -22,10 +22,10 @@ p {
 }
 
 ul {
-	list-style-type: none;
+	list-style-type: none; /*Gets rid of bullet points on the unlinked list*/
 }
 
-h3 span {
+h3 span { /*Text overlay for the images*/
 	position: absolute;
 	top: 50px;
 	left: 0px;
