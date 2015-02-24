@@ -1,0 +1,41 @@
+p {
+	font-size: 18px;
+	padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+	/*text-align: left;*/
+}
+
+#information {
+	font-style: italic;
+	text-align: center;
+}
+
+
+#ingredients {
+	text-align: left;
+
+}
+.overlay {
+	position: relative;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h3 span {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	color: white;
+	background: rgba(0,0,0,.75);
+	font-size: 32px;
+	opacity: 0;
+
+}
+.overlay:hover h3 span {
+	opacity: 1;
+
+}
